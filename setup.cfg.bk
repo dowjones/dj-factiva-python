@@ -1,0 +1,20 @@
+[metadata]
+license_file = LICENSE
+name = dowjones-factiva
+author = Dow Jones CSE Team
+author_email = csegh@dowjones.com
+description = Library to interact with all Factiva application interfaces
+long_description = file:README.rst
+url = https://developer.dowjones.com
+project_urls =
+    Developer Portal = https://developer.dowjones.com
+    Factiva Portal = https://factiva.com
+
+[options]
+python_requires = >=3.4
+install_requires=
+    pandas >= 1.0.3
+    fastavro >= 0.23.0
+    requests >= 2.23.0
+setup_requires =
+    setuptools_scm >= 1.15
